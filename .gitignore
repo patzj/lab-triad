@@ -1,0 +1,42 @@
+# Credentials and local environment
+.env
+.env.*
+!.env.example
+secrets.json
+auth.json
+*.pem
+*.key
+
+# Installed third-party skills
+# Document installation in SETUP.md
+.agents/skills/
+.claude/skills/
+.codex/skills/
+.opencode/skills/
+
+# Lab source, working notes, and assessment output
+labs/
+runs/
+artifacts/
+notes/
+
+# Captured traffic and proxy projects
+*.har
+*.burp
+*.pcap
+*.pcapng
+
+# Dependencies and caches
+node_modules/
+__pycache__/
+*.py[cod]
+.venv/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.swp
+
+# OS files
+.DS_Store
+Thumbs.db
